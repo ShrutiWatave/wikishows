@@ -16,7 +16,7 @@ body {
 .main {
    border: solid 2px #700B97;
    border-radius: 6px;
-   margin: 30px;
+   margin: 40px;
 
 }
 
@@ -30,6 +30,12 @@ body {
    font-size: larger;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: bold;
+}
+
+
+.btnhome:hover {
+   color:#8E05C2;
+   background-color: #222831;
 }
 
 .mainimg {
@@ -47,11 +53,16 @@ body {
 
 
 .maintitle {
-   margin-top: 40px;
+   margin-top: 50px;
    margin-left: 200px;  
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 
+.score {
+   margin-left: 200px;  
+   margin-bottom: 40px;  
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 .info {
@@ -63,13 +74,12 @@ body {
 
 }
 
-
-
 .titleinfo2 {
    margin-top: 30px;
    font-size: larger;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .section{
    
@@ -79,13 +89,15 @@ body {
    margin-left:200px;
    margin-right:200px;
    margin-bottom: 100px;
-   font-size: larger;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+      
 }
 
 .info2 {
    margin-top: 15px;
+   font-size: larger;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .thumbnail {
    padding-top: 25px;
@@ -94,11 +106,44 @@ body {
 }
 
 .thmbimg {
-   width: 250px;
-   height: 230px
+   width: 320px;
+   height: 250px
 }
 
 
+.cast {
+   margin-left: 150px;
+   margin-right: 200px;
+   margin-bottom: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
+.titlecast{
+   margin-left: 50px;
+   margin-bottom: 40px;
+   font-size: larger;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+
+.card {
+   box-shadow: 0 4px 8px 0 #3E065F;
+   display:inline-block;
+   border:solid 4px #8E05C2;
+   border-radius:5px;
+   width: 40%;
+   margin-left: 50px;
+   margin-top: 20px;
+   max-width:300px;
+   height: auto;
+   text-align: center;
+   background-color:#8E05C2;
+   text-shadow: 2px 2px 4px #000000;
+}
+
+.castimg {
+   padding:12px;
+   height: 210px;
+   width: 200px;
+}
