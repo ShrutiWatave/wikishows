@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: #700B97;
+    border-radius: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+    text-decoration: none;
+}
+
+.navbar li{
+    
+    float: left;
+    padding: 10px;
+    list-style: none;
+    margin: 3px 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}  
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    font-size: 45px;
+    color: white;
+}
+
+hr-line{
+    border: 20px rgb(68 66 66);
+}
+
+div {
+    color: white;
+    width: 95%;
+    border: 10px solid #3E065F;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
