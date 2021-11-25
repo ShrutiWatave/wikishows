@@ -4,14 +4,14 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/reqlogin.css">
+   <link rel="stylesheet" href="/css/reqlogin.css">
    <title>Login Page</title>
 </head>
 <body>
    <div class="main">
       <h1 class="formhead">Hello!</h1>
       <h3 class="formhead">Login For Requesting Access</h3> <br> <br>
-      <button class="btnhome" onclick="window.location.href='./home.html'">Home</button>
+      <button class="btnhome" onclick="window.location.href='/pages/home.html'">Home</button>
       <form class="frm">
 
          <label class="boxlbl" id="lblemail"><b>Email</b> (Who are you?)</label> <br>
@@ -21,11 +21,11 @@
          <input type="password" id="pass" class="boxinp"> <br><br>
 
          <!-- <button class="btns loginbtn" type="submit">Login</button> -->
-         <button class="reqstacc">Request Access</button>
+         <button class="reqstacc" type="submit">Request Access</button>
          <button class="btns resetbtn" type="reset">Reset</button> <br>
 
          <label class="notamem">Not a Member?</label>
-         <button class="signupbtn" type="submit">Sign-Up</button>
+         <button class="signupbtn" onclick="window.location.href='./signup.html'" type="button">Sign-Up</button>
 
          <br><br> <br>
 
