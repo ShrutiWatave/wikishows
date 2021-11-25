@@ -112,3 +112,7 @@ div.row{
     background-color: #8E05C2;
     color: white;
 }
+
+a{
+    text-decoration: none;
+}
