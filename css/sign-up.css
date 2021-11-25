@@ -1,0 +1,160 @@
+* {
+   margin:0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+body {
+   background-color:#222831;
+   color:white;
+   /* text-align: center; */
+}
+
+.main {
+   border: solid 3px #700B97;
+   border-radius: 6px;
+   margin-top: 100px;
+   margin-left: 300px;
+   margin-right: 300px;
+   margin-bottom: 100px;
+   align-self: center;
+}
+
+
+.frm {
+   margin-top: 50px;
+}
+
+
+.formhead {
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+}
+
+.btnhome {
+   padding: 8px;
+   margin-left: 30px;
+   margin-top: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+   background-color: #700B97;
+   color: #00ffdd;
+   border: solid 2px #00ffdd;
+   border-radius: 6px;
+}
+
+.btnhome:hover {
+   background-color: #00ffdd;
+   color: #700B97;
+   font-weight: 600;
+}
+
+.boxlbl, .boxinp{
+   margin-left: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+.boxlbl {
+   font-weight: 100;
+}
+
+.boxinp {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   background-color: #222831;
+   color: white;
+   border: solid 2px #00ffdd;
+   border-radius: 4px;
+   width: 70%;
+   height: 30px;
+}
+
+
+.contact {
+   width: 50%;
+}
+
+
+.genderconfirm {
+   margin-top: 10px;
+   margin-left: 100px;
+   margin-bottom: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+.gender {
+   margin-right: 8px;
+   font-weight: 100;
+}
+
+
+.emailsend {
+   margin-top: 40px;
+   margin-bottom: 80px;
+}
+
+.emlconfrm {
+   margin-top: 10px;
+   margin-left: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+
+.check_box {
+   margin-top: 20px;
+   margin-bottom: 10px;
+   height: 15px;
+   width: 15px;
+}
+
+.input_check{
+   margin-right: 8px;
+   margin-bottom: 10px;
+}
+
+
+
+
+.chkinp {
+   margin-left: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+.chkbox {
+   margin-left: 100px;
+   height: 15px;
+   width: 15px;
+}
+
+
+.btns {
+   margin-left: 100px;
+   margin-bottom: 100px;
+   padding: 8px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+   background-color: #700B97;
+   color: #00ffdd;
+   border: solid 2px #00ffdd;
+   border-radius: 6px;
+}
+
+
+.btns:hover {
+   background-color: #00ffdd;
+   color: #700B97;
+   font-weight: 600;
+}
+
+
+
