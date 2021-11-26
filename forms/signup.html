@@ -8,52 +8,53 @@
    <title>Sign-Up</title>
 </head>
 <body>
-   <div class="main">
-      <h1 class="formhead">Sign-Up!</h1>
-      <h3 class="formhead">Be a True Fan!</h3> <br> <br>
-      <button class="btnhome" onclick="window.location.href='../pages/home.html'">Home</button> <br> <br>
-      <form id="signup" class="frm" method="POST" action="../php/signup.php">
-         <label class="boxlbl" id="lblname" ><b>Name</b>  (What do we call you?)</label><br>
-         <input class="boxinp" id="name" name="name" type="text" placeholder=" ex: Darth Vader" required><br><br>
+   <div class="container">
+      <h1 class="formheader">Sign-Up!</h1>
+      <h3 class="formheader">Be a True Fan!</h3> <br> <br>
+      <button class="btn" onclick="window.location.href='../pages/home.html'">Home</button> <br> <br>
+      <form id="signup" method="POST" action="../php/signup.php">
+         <label id="lblname" ><b>Name</b>  (What do we call you?)</label><br>
+         <input class="text"  id="name" name="name" type="text" placeholder=" ex: Darth Vader" required><br><br>
          
-         <label class="boxlbl" id="lbleml"><b>Email</b>  (It's ok! We don't share!)</label><br>
-         <input class="boxinp" id="email" name="email" type="text" placeholder=" ex:iamdarth@gmail.com" required> <br><br>
+         <label id="lbleml"><b>Email</b>  (It's ok! We don't share!)</label><br>
+         <input class="text"  id="email" name="email" type="text" placeholder=" ex:iamdarth@gmail.com" required> <br><br>
          
-         <label class="boxlbl" id="lblpass"><b>Password</b>  (Keep it strong like your love for Netflix!):</label><br>
-         <input class="boxinp" id="pass" name="pass" type="password" required> <br><br>
+         <label id="lblpass"><b>Password</b>  (Keep it strong like your love for Netflix!):</label><br>
+         <input class="text"  id="pass" name="pass" type="password" required> <br><br>
          
 
-         <div class="genderconfirm">
-            <label class="form-label gender"><b>Gender</b> (Be proud of who you are!)</label> <br>
+         <div>
+            <label ><b>Gender</b> (Be proud of who you are!)</label> <br>
             
-            <input class="check_box" type="radio" name="gender" id="male" value="male" required>
-            <label class="input_check" for="male">Male</label> <br>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label> <br>
             
-            <input class="check_box"  type="radio" name="gender" id="female" value="female">
-            <label class="input_check" for="female">Female</label> <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label> <br>
             
-            <input class="check_box" type="radio" name="gender" id="other" value="other">
-            <label class="input_check" for="other">Other</label><br> <br>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label><br> <br>
          </div>
 
 
-         <label class="boxlbl" id="lblcnt"><b>Contact</b>  (Don't worry we won't text you ...much)</label><br>
-         <input class="boxinp contact" id="contact" name="contact" type="tel" value="+91 " required> <br><br>
+         <label id="lblcnt"><b>Contact</b>  (Don't worry we won't text you ...much)</label><br>
+         <input class="text"  id="contact" name="contact" type="tel" value="+91 " required> <br><br>
 
 
-         <div class="emailsend">
-            <label class="emlconfrm" id="lbloptn">Would you like to receive emails on the trending new shows?</label> <br><br>
-            <input class="radbox" type="radio" name="eml" id="yes" value="Yes" required>
-            <label class="radinp" for="yes">YES, I would love that!</label> <br>
+         <div>
+            <label id="lbloptn">Would you like to receive emails on the trending new shows?</label> <br>
+            <input type="radio" name="eml" id="yes" value="Yes" required>
+            <label for="yes">YES, I would love that!</label> <br>
             
-            <input class="radbox" type="radio" name="eml" id="no" value="NO">
-            <label class="radinp" for="no">NO, It's ok.</label>
+            <input type="radio" name="eml" id="no" value="NO">
+            <label for="no">NO, It's ok.</label>
          </div>
          
 
-
-         <button class="btns" type="submit">Sign-Up</button>
-         <button class="btns" type="reset">Reset</button>
+         <div class="atnbtn">
+         <button class="btn" class="btns" type="submit">Sign-Up</button>
+         <button class="btn" class="btns" type="reset">Reset</button>
+         </div>
       </form>
    </div>
    <script defer type="module" src="../js/signup.js"></script>
