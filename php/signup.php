@@ -8,12 +8,10 @@
     $contact= $_REQUEST['contact'];
     $email_send= $_REQUEST['eml'];
 
-    echo "Name : ".$name." Email : ".$email." Password : ".$password." Gender : ".$gender." Contact : ".$contact." Email Send : ".$email_send;
-
     $adduser = "INSERT INTO signup(pname,email,pass,gender,contact,email_send) VALUES('".$name."','".$email."','".$password."','".$gender."','".$contact."','".$email_send."');";
 
     if(mysqli_query($db,$adduser)){
-        echo "Added user sucessfully";
+        header("Location: login.php");
     }
     else{
         echo "Failed to add user Error : ".mysqli_error($db);

@@ -3,7 +3,7 @@ import {validateContact,validateEmail,validatePassword,confirmPassword} from './
 const form = document.getElementById('signup');
 
 form.addEventListener("submit",(e)=>{
-    if(validatePassword() && validateContact() && validateEmail() && confirmPassword()){
+    if(validateEmail() && validatePassword() && confirmPassword() && validateContact()){
     }
     else{
         e.preventDefault();
