@@ -42,7 +42,7 @@
       <form id="editreq" class="frm" action="" method="POST">
 
          <label class="boxlbl" id="lblname"><b>Name</b> (Who are you?):</label><br>
-         <input class="boxinp" type="text" name="name" id="name" placeholder=" Darth Vader"> <br><br>
+         <input class="boxinp" type="text" name="name" id="name" placeholder=" Darth Vader" required> <br><br>
 
          <label class="boxlbl" id="lblemail"><b>Email</b> (So We can contact you!): </label> <br>
          <input type="text" id="email" name="email" class="boxinp" placeholder=" ex:iamdarth@gmail.com" required>
@@ -52,11 +52,11 @@
          <input type="password" id="pass" name="pass" class="boxinp" required> <br><br> -->
 
          <label class="boxlbl" id="lblshow_name"><b>Show Name</b> (Which show needs your wisdom?): </label>
-         <input class="boxinp" type="text" name="show_name" id="show_name" placeholder=" ex:The Big Bang Theory" value="<?php echo $show;?>"> <br><br>
+         <input class="boxinp" type="text" name="show_name" id="show_name" placeholder=" ex:The Big Bang Theory" required value="<?php echo $show;?>"> <br><br>
          
 
          <label class="boxlbl" id="lbledit"><b>Edit</b> (Shower us with your wisdom!): </label>
-         <input class="boxinp" type="text" name="edit" id="edit"> <br><br>
+         <input class="boxinp" type="text" name="edit" id="edit" required> <br><br>
 
 
 
