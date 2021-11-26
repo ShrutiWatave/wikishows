@@ -26,6 +26,20 @@ function validatePassword(){
     }
 }
 
+function confirmPassword(){
+    var password = document.getElementById("pass").value;
+    var pass_con = document.getElementById("pass_con").value;
+    var result = password.localeCompare(pass_con);
+    console.log("Matched Password")
+    if(result != 0){
+        alert("Passwords do not match.");
+        return false;
+    }
+    else{
+        return true;
+    }
+}
+
 function validateContact(){
     var contact = document.getElementById("contact").value;
     console.log("Checked Contact");
@@ -38,4 +52,4 @@ function validateContact(){
     }
 }
 
-export {validateContact,validateEmail,validatePassword};
+export {validateContact,validateEmail,validatePassword,confirmPassword};
