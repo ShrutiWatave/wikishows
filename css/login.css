@@ -14,14 +14,16 @@ body {
    /* text-align: center; */
 }
 
-.main {
+.container{
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   width:50%;
    border: solid 3px #700B97;
    border-radius: 6px;
-   margin-top: 100px;
-   margin-left: 300px;
-   margin-right: 300px;
-   margin-bottom: 100px;
-   align-self: center;
+   padding:2rem;
+   overflow: auto;
 }
 
 
@@ -30,7 +32,7 @@ body {
    margin-left: 30px;
    margin-top: 20px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: larger;
+   font-size: medium;
    background-color: #700B97;
    color: #00ffdd;
    border: solid 2px #00ffdd;
@@ -53,38 +55,75 @@ body {
    margin-top: 20px;
    text-align: center;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 3rem;
    font-weight: 400;
 }
 
 
+.formheader {
+   margin-top: 20px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+
+label{
+   margin-bottom: 0.7em;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: larger;
+}
+
+
 .boxlbl, .boxinp{
-   margin-left: 150px;
+   /* margin-left: 80px; */
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: larger;
    
 }
 
 .boxlbl {
+   margin-left: 80px;
+   margin-right: 80px;
    font-weight: 100;
 }
 
 .boxinp {
+   margin-left: 80px;
+   margin-right: 80px;
    margin-top: 10px;
    margin-bottom: 20px;
    background-color: #222831;
    color: white;
    border: solid 2px #00ffdd;
    border-radius: 4px;
-   width: 65%;
-   height: 30px;
+   width: 80%;
+   height: 32px;
+}
+
+
+.atnbtn{
+   text-align:center;
+   display:block;
+   justify-content: space-between;
+}
+
+
+
+.atnbtn button{
+   margin-inline:2% ;
+   margin-top: 2%;
+   width:40%;
+   text-align: center;
 }
 
 
 .btns {
    margin-top: 20px;
-   margin-left: 100px;
+   /* margin-left: 100px; */
    margin-bottom: 80px;
-   padding: 8px;
+   padding: 6px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: larger;
    background-color: #700B97;
@@ -103,7 +142,7 @@ body {
 
 
 .loginbtn {
-   margin-left: 145px;
+   margin-right: 90px;
 }
 
 
@@ -131,6 +170,7 @@ body {
    font-weight: 600;
    transition: ease 0.3s;
 }
+
 
 a{
    text-decoration: none;

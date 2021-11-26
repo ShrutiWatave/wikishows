@@ -8,9 +8,9 @@
    <title>Login Page</title>
 </head>
 <body>
-   <div class="main">
-      <h1 class="formhead">Hello!</h1>
-      <h3 class="formhead">Login Please</h3> <br> <br>
+   <div class="container">
+      <h1 class="formhead">Welcome back Member</h1>
+      <h3 class="formheader">Login Please</h3> <br> <br>
       <button class="btnhome" onclick="window.location.href='../pages/home.html'">Home</button>
       <form class="frm" action="../php/login.php" method="POST">
 
@@ -20,8 +20,12 @@
          <label class="boxlbl" id="lblemail"><b>Password</b></label> <br>
          <input type="password" id="pass" name="pass" class="boxinp" placeholder=" mypassword" required> <br><br>
 
-         <button class="btns loginbtn" type="submit">Login</button>
-         <button class="btns resetbtn" type="reset">Reset</button> <br>
+
+         <div class="atnbtn">
+            <button class="btns loginbtn" type="submit">Login</button>
+            <button class="btns resetbtn" type="reset">Reset</button> <br>
+
+         </div>
 
          <label class="notamem">Not a Member?</label>
          <button class="signupbtn" onclick="window.location.href='./signup.html'" type="button">Sign-Up</button>
