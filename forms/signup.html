@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/sign-up.css">
+   <title>Sign-Up</title>
+</head>
+<body>
+   <div class="container">
+      <h1 class="formheader">Sign-Up!</h1>
+      <h3 class="formheader">Be a True Fan!</h3> <br> <br>
+      <button class="btn" onclick="window.location.href='../pages/home.html'">Home</button> <br> <br>
+      <form id="signup" method="POST" action="../php/signup.php">
+         <label id="lblname" ><b>Name</b>  (What do we call you?)</label><br>
+         <input class="text"  id="name" name="name" type="text" placeholder=" ex: Darth Vader" required><br><br>
+         
+         <label id="lbleml"><b>Email</b>  (It's ok! We don't share!)</label><br>
+         <input class="text"  id="email" name="email" type="text" placeholder=" ex:iamdarth@gmail.com" required> <br><br>
+         
+         <label id="lblpass"><b>Password</b>  (Keep it strong like your love for Netflix!):</label><br>
+         <input class="text"  id="pass" name="pass" type="password" required> <br><br>
+         
+         <label id="lblpass_con"><b>Confirm Password</b> (Please confirm!):  </label> <br>
+         <input type="password" class="text" name="pass_con" id="pass_con" required> <br><br>
+
+         <div>
+            <label ><b>Gender</b> (Be proud of who you are!)</label> <br>
+            
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label> <br>
+            
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label> <br>
+            
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label><br> <br>
+         </div>
+
+
+         <label id="lblcnt"><b>Contact</b>  (Don't worry we won't text you ...much)</label><br>
+         <input class="text"  id="contact" name="contact" type="tel" value="+91 " required> <br><br>
+
+
+         <div>
+            <label id="lbloptn">Would you like to receive emails on the trending new shows?</label> <br>
+            <input type="radio" name="eml" id="yes" value="Yes" required>
+            <label for="yes">YES, I would love that!</label> <br>
+            
+            <input type="radio" name="eml" id="no" value="NO">
+            <label for="no">NO, It's ok.</label>
+         </div>
+         
+
+         <div class="atnbtn">
+         <button class="btn" class="btns" type="submit">Sign-Up</button>
+         <button class="btn" class="btns" type="reset">Reset</button>
+         </div>
+      </form>
+   </div>
+   <script defer type="module" src="../js/signup.js"></script>
+</body>
+</html>
