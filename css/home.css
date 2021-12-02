@@ -1,10 +1,150 @@
-body{
+/* body{
     background-color: black;
     margin: 0;
     font-family: sans-serif;
 }
 
 .navbar{
+    background-color: #8E05C2;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+    text-decoration: none;
+    padding: 0 0 0 200px;
+}
+
+.navbar li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+    margin: 3px 20px;
+    
+ }
+
+.logo img{
+    position:absolute;
+    margin-top: 3px;
+    margin-left: 16px;
+    width: 180px;
+    border-radius: 7px;
+    border-radius: 10px;
+   
+}
+
+.navbar a{
+    width: 100px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}   
+
+.home-heading{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 45px;
+    color: white;
+}
+
+hr-line{
+    border: 20px rgb(68 66 66);
+}
+
+div.site-info {
+    color: white;
+    width: 95%;
+    border: 8px solid #700B97;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.home-main-card-container{
+    border: 10px solid #700B97;
+}
+
+div.home-row{
+    text-align: center;
+}
+
+.home-card{
+    width: 18%;
+    /* border: 5px solid #3E065F; 
+    display: inline-block;
+    background-color: rgb(32, 31, 31);
+    margin: 40px;
+    box-shadow: 7px 10px 10px;
+    transition: 5s color;
+    border-radius: 10px;
+    color: #700B97;
+}
+.home-card:hover{
+    box-shadow: 11px 14px 15px ;
+    color: #8E05C2;
+    transition: .7s color;
+}
+
+.home-card-img img{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.home-card-title {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.home-card-content{
+    color: white;
+    text-align: center;
+}
+
+.home-card-content button{
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 3px;
+    transition: .7s;
+    font-size: 18px;
+    
+}
+
+.home-card-content button:hover{
+    
+    background-color: #8E05C2;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #8E05C2;
+}
+
+a:hover{
+    background-color: #8E05C2;
+    color: white;
+} */
+
+body{
+    padding: 0;
+    background-color: black;
+    margin: 0;
+    
+    font-family: sans-serif;
+}
+
+/* .navbar{
     background-color: #8E05C2;
     border-radius: 10px;
     margin: 10px;
@@ -27,7 +167,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 20px;
-}  
+}   */
 
 h1{
     text-align: center;
