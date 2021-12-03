@@ -21,7 +21,7 @@ body{
     margin:100px auto;
     overflow:auto;
     align-content: center;
-    padding: 20px;
+    padding: 40px;
     display:grid;
     align-items: center;
     grid-template-columns:repeat(5,1fr);
