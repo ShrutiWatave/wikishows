@@ -43,7 +43,7 @@ function confirmPassword(){
 function validateContact(){
     var contact = document.getElementById("contact").value;
     console.log("Checked Contact");
-    if(contact.length == 14){
+    if(contact.length == 14 && !isNaN(contact.slice(4))){
         return true;
     }
     else{
