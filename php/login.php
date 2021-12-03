@@ -32,7 +32,8 @@
    <title>Login Page</title>
 </head>
 <body>
-   <div class="main">
+
+   <div class="container">
       <h1 class="formhead">Hello!</h1>
       <h3 class="formhead">Login Please</h3> <br> <br>
       <button class="btnhome" onclick="window.location.href='../pages/home.html'">Home</button>
